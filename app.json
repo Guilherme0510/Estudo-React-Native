@@ -17,7 +17,8 @@
       "supportsTablet": true
     },
     "android": {
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "package": "com.guilhermesl.reactnative"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "328c6abb-8ea1-411b-9e8b-197a10fb5ed1"
+      }
     }
   }
 }

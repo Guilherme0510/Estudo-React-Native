@@ -6,12 +6,17 @@ export const MOVIESWATCH = [
   },
   {
     id: "2",
+    name: "Telugu",
+    moviesURL: require("../assets/movies/Telugu.png"),
+  },
+  {
+    id: "3",
     name: "Hindi",
     moviesURL: require("../assets/movies/Hindi.png"),
   },
   {
-    id: "3",
-    name: "Telugu",
+    id: "4",
+    name: "Portugues",
     moviesURL: require("../assets/movies/Telugu.png"),
   },
 ];
